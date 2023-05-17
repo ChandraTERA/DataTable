@@ -1,0 +1,7 @@
+h1 {
+	background-color: powderblue;
+	color: darkred;
+	font-family: arial, sans-serif;
+	font-size: 23px;
+	
+}

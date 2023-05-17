@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="hyper.css">
+	<title>Belajar HTML</title>
+	<style>
+		h1 {
+			color: darkcyan;
+		}
+		tr, td {
+			display: inline;
+		}
+		h3 {
+			color: brown;
+		}
+
+	</style>
+</head>
+<body>
+
+	<h1>HTML</h1>
+	<h2>Gunakan Data asli</h2>
+	<form action="action_input.php" method="POST" enctype="multipart/form-data">
+		<table width="100%" border="1" align="center">
+			<tr>
+				<td>Nama Lengkap</td>
+				<td>:</td>
+				<td><input type="text" name="Nama Lengkap" placeholder="Nama Lengkap"></td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td>:</td>
+				<td><input type="text" name="Alamat" placeholder="Alamat sekarang"></td>
+			</tr>
+			<tr>
+				<td>Umur</td>
+				<td>:</td>
+				<td><input type="text" name="Umur" placeholder="Umur"></td>
+			</tr>
+			<tr>
+				<td>Hobby</td>
+				<td>:</td>
+				<td><input type="text" name="Hobby" placeholder="Hobby"></td>
+			</tr>
+			<tr>
+				<td>Instansi</td>
+				<td>:</td>
+				<td><input type="text" name="Instansi" placeholder="Nama Institusi"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="Simpan" value="simpan"><input type="reset" name="reset" value="Reset"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
